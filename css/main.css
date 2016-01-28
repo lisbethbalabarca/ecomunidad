@@ -1,0 +1,333 @@
+*{
+	position: relative;
+}
+header{
+	height: 100px;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	left: 50px;
+	top: 10px;
+}
+nav{
+    top: -60px;
+    left: 400px;
+    width: 68%;
+}
+nav ul{
+    list-style:none;
+ }
+ nav ul li{
+ 	float:left;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+ }
+ nav ul li a{
+ 	color:#9A9A9A;
+    display:block;
+    text-decoration:none;
+    padding: 20px;
+ }
+.hojita{
+	height: 380px;
+	background:url("../img/semilla.jpg");
+	background-repeat: no-repeat;
+	background-position: -110px;
+}
+.primera{
+	background-color: #F2F2F2;
+	height: 520px;
+}
+.texto1{
+	width: 850px;
+	text-align: center;
+	padding:50px;
+	left: 200px;
+	font-size: 12px;
+}
+.tex2{
+	height: 300px;
+	text-align: center;
+	top: 30px;
+	margin-left: 14px;
+}
+.texto2{
+	padding-right: 50px;
+	padding-left: 50px;
+	font-size: 12px;
+	top: -15px;
+}
+.mision{
+	width: 100px;
+	height: 100px;
+}
+.imagen{
+	height: 350px;
+}
+.metodo{
+	width: 100%;
+	left: 14px;
+}
+.cuarto{
+	z-index: 1;
+	background-color: white;
+	height: 200px;
+}
+.tex3{
+	background: url("../img/fondo.jpg");
+	height: 350px;
+	left: 14px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	font-size: 11px;
+}
+.tercera .col-6{
+	padding: 0;
+	margin: 0;
+}
+.icon{
+	top: 40px;
+	padding: 20px;
+}
+.icon img,h1{
+	margin-bottom: 30px;
+}
+.icon p{
+	padding: 30px;
+	text-align: left;
+}
+.icon img{
+	width: 50px;
+	height: 50px;
+}
+.cuarto{
+	height: 150px;
+}
+.servicios{
+	border: solid white 2px;
+	height: 100px;
+	left: 14px;
+	text-align: center;
+	font-size: 12px;
+	width: 50%;
+	color: black;
+	left: 340px;
+	top: 30px;
+}
+.servicios h2,p{
+	padding: 13px;
+}
+.servicios p{
+	width: 800px;
+	left: -90px;
+}
+.quinta{
+	height: 630px;
+}
+.quinta .col-4{
+	text-align: center;
+	width: 24%;
+	margin: 40px;
+	left: 80px;
+}
+.equipotitle{
+	color: green;
+	left: 150px;
+	top: 80px;
+	width: 200px;
+}
+.quinta .col-4 p{
+	font-size: 10px;
+}
+.quinta .col-4 .titulo{
+	color: #5E8039;
+	font-weight: bold;
+	font-size: 14.5px;
+	text-transform: auto;	
+}
+.col-4 img{
+	height: 100px;
+	width: 100px;
+}
+.caja1{
+	margin-bottom: 100px;
+}
+.quinta .col-4 .titulo2{
+	color: #5E8039;
+	font-weight: bold;
+	font-size: 14.5px;
+	text-transform: auto;
+	width: 450px;	
+	left: -90px;
+}
+.caja21{
+	top: 18px;
+}
+.tex4{
+	top: 19px;
+}
+.tex5{
+	top: -18px;
+}
+.clearfix:before , .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.sexta{
+	 background-color: #5E8039;
+	 height: 750px;
+}
+
+.imagenes1 img{
+	width: 450px;
+	height: 300px;
+	left: -10px;
+	top: 10px;
+}
+.texto{
+	padding: 30px;
+	top: 60px;
+	margin-bottom: 60px;
+	left: 50px;
+}
+.texto h1, h5, .proyec{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+.texto h1{
+	padding: 0;
+	margin-bottom: 0;
+}
+.proyec{
+	font-size: 12px;
+}
+.septima{
+	height: 450px;
+}
+.septima .col-6{
+	left: 238px;
+	text-align: center;
+	top: 50px;
+	width: 400px;
+}
+.equipo .uno{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+.equipo .logitos img{
+	width: 25px;
+	height: 25px;
+}
+.equipo .logitos a{
+	text-decoration: none;
+}
+.equipo h2{
+	font-size: 18px;
+}
+.equipo h3{
+	font-size: 12px;
+}
+.equipo p{
+	font-size: 10px;
+}
+.octavo{
+	background:url("../img/fondo2.jpg");
+	height: 410px;
+}
+.blog img{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	left: 9px;
+}
+.octavo .col-4{
+	left: 100px;
+	width: 350px;
+}
+.blog p{
+	font-size: 12px;
+}
+.blog h2, h3{
+	left: 9px;
+}
+.title{
+	left: 30px;
+	width: 200px;
+}
+.img1, .img2{
+	width: 40px;
+	height: 40px;
+	top: 156px;
+}
+.img1{
+	left: -1050px;
+}
+.img2{
+	left: 100px;
+}
+.noveno{
+	height: 400px;
+	background-color: #4D4D4D;
+}
+.noveno .col-3{
+	border: solid white 1px;
+	left: 14px;
+	height: 300px;
+	top: 50px;
+	left: 40px;
+	width: 300px;
+}
+.col-3 img{
+	width: 50px;
+	height: 50px;
+	top: 170px;
+	left: 100px;
+}
+.noveno h1{
+	color: white;
+}
+.col-3 .email{
+	width: 60px;
+	height: 40px;
+}
+footer{
+	height: 200px;
+	background-color: #F2F2F2;
+}
+.final{
+	left: 14px;
+}
+.ecomu{
+	text-align: right;
+	top: 50px;
+	right: 20px;
+}
+.ecomu ul li{
+	list-style: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ecomu ul li:last-child{
+	font-weight: normal;
+}
+.footer1{
+	top: 100px;
+	left: 20px;
+}
+.footer1 ul li{
+	list-style: none;
+	font-size: 14px;
+}
+.footer1 ul li:last-child{
+	font-weight:  bold;
+	font-size: 18px;
+	color: #FAC60E;
+}
